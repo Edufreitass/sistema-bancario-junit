@@ -79,7 +79,7 @@ public class GerenciadoraClientesTest_Ex5 {
 		
 		/* =========== Verificações =========== */
 		assertThat(clienteRemovido, is(true));
-		assertThat(gerClientes.getClientesDoBanco().size(), is(idCliente01));
+		assertThat(gerClientes.getClientesDoBanco().size(), is(1));
 		assertNull(gerClientes.pesquisaCliente(idCliente02));
 	}
 	
